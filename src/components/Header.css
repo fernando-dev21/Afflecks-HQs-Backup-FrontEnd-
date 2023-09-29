@@ -20,10 +20,18 @@ header {
   }
   
   .redes {
-    width: 100px;
-    height: 100px;
-    margin-left: 10px;
-    border-radius: 42%;
+    width: 100px;    
+    flex-direction: column;
+    display: flex;
+  }
+
+  .redes img {
+    width: 70px;        
+    margin-top: 10px;
+  }
+  
+  .redes button {
+    width: 75%;        
   }
   
 
