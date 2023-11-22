@@ -1,20 +1,26 @@
 
 main {
 	display: flex;
-    width: 100%;
     height: auto;        
     align-items: center;
-}
-		
-main {
-	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;	
+	width: 85%; /* Ajuste conforme necessário */
+  	margin: 0 auto; /* Centraliza o carrossel */
+  	overflow: hidden;
+
 }
+
+.produtos-container {
+	display: flex;
+	justify-content: space-between; /* Ou outro valor, como 'space-around' ou 'space-evenly' */
+	flex-wrap: wrap;
+  }
+
 
 .produto {
 	width: 230px;
-	margin: 30px 30px 30px 30px;
+	margin: 10px 10px 10px 10px;
 	border: 2px solid #000;
 	border-radius: 5px;
 	padding: 0px;
@@ -45,8 +51,8 @@ main {
 
 .produto button {
 
-	margin: 30px 30px 30px 30px;
-	padding: 10px;
+	margin: 6px 6px 6px 6px;
+	padding: 6px 6px 6px 6px;
 	background-color: #007bff;
 	color: #fff;
 	border: none;
@@ -54,6 +60,9 @@ main {
 	cursor: pointer;
 }
 
+.produto .produto_1 {
+	color: red;
+}
 .produto button:hover {
 	background-color: #0062cc;
 }

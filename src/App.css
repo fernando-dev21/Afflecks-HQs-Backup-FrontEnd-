@@ -24,6 +24,11 @@
     transform: rotate(360deg);
   }
 }
+.carousel {  
+  width: 85%; /* Ajuste conforme necessário */
+  margin: 0 auto; /* Centraliza o carrossel */
+  overflow: hidden;
+}
 
 .carousel-inner > .carousel-item > img {
   width: 100%;
