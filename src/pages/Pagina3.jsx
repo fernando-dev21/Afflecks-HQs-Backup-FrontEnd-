@@ -17,10 +17,7 @@ const Pagina3 = () => {
 
   return (
     <div className="App">
-       <div>
-        <button onClick={increaseFontSize}><strong>Aumentar fonte</strong></button>
-        <button onClick={decreaseFontSize}><strong>Diminuir fonte </strong></button>        
-      </div>
+       
       <section className="quem-somos" style={{ fontSize: `${fontSize}px` }} >
         <h2 style={{ fontSize: `${fontSize}px` }}>Bem vindos ao Affleck´s HQs!</h2>
         <p style={{ fontSize: `${fontSize}px` }}>

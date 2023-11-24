@@ -1,5 +1,6 @@
-.section-container {
+.quemSomos {
   display: flex;
+  width: 100%;
 }
 
 .left-side {
@@ -15,7 +16,7 @@
 
 .image {
   width: 100%;
-  height: auto;
+  height: 70%;
 }
 
 h2 {

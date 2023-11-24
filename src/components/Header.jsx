@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../assets/image/logo.png'
+//import logo from '../assets/image/logo.png'
 import logo2 from '../assets/image/logo-escrita.png'
 import redes from '../assets/image/facebook.png'
 import redes_2 from '../assets/image/instagran.png'
@@ -10,15 +10,26 @@ const Header = () => {
   return (
     
     <header>
-        <img src={logo} className="logo" alt="LOGO DA PAGINA ESCRITO AFFLECKS HQS" />
+        
         <img src={logo2} className="logo2" alt="LOGO DA PAGINA ESCRITO AFFLECKS HQS" />  
 
-        <div className='redes'>  
-          <img src={redes} className="redes" alt="LOGO DA PAGINA ESCRITO AFFLECKS HQS" />               
-          <img src={redes_2} className="redes" alt="LOGO DA PAGINA ESCRITO AFFLECKS HQS" />            
-          <img src={redes_3} className="redes" alt="LOGO DA PAGINA ESCRITO AFFLECKS HQS" />             
-        </div>  
-  
+        <div className="redes">
+        <div>
+          <img src={redes} className="logo" alt="LOGO DA PAGINA ESCRITO AFFLECKS HQS" />
+          <p>/AfflecksHQs</p>
+        </div>
+
+        <div>
+          <img src={redes_2} className="logo" alt="LOGO DA PAGINA ESCRITO AFFLECKS HQS" />
+          <p>@AfflecksHQs</p>
+        </div>
+
+        <div>
+          <img src={redes_3} className="logo" alt="LOGO DA PAGINA ESCRITO AFFLECKS HQS" />
+          <p>(XX)9999999</p>
+        </div>
+        </div>
+        
     </header>   
 
   )

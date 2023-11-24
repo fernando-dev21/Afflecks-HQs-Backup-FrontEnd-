@@ -31,12 +31,10 @@ const Home = () => {
     { id: 4, imagem: hq3, nome: 'O Espetacular Homem Aranha', preco: 'R$ 29,99', adicionado: false },
     { id: 5, imagem: hq5, nome: 'Batman Knightfall', preco: 'R$ 29,99', adicionado: false },
     { id: 6, imagem: hq6, nome: 'Watchmen', preco: 'R$ 29,99', adicionado: false },
-    { id: 7, imagem: hq7, nome: 'Watchmen', preco: 'R$ 29,99', adicionado: false },
-    { id: 8, imagem: hq8, nome: 'Watchmen', preco: 'R$ 29,99', adicionado: false },
-    { id: 9, imagem: hq9, nome: 'Watchmen', preco: 'R$ 29,99', adicionado: false },
-    { id: 10, imagem: hq10, nome: 'Watchmen', preco: 'R$ 29,99', adicionado: false },
-
-
+    { id: 7, imagem: hq7, nome: 'Authority', preco: 'R$ 29,99', adicionado: false },
+    { id: 8, imagem: hq8, nome: 'Invencible', preco: 'R$ 29,99', adicionado: false },
+    { id: 9, imagem: hq9, nome: 'Spawn', preco: 'R$ 29,99', adicionado: false },
+    { id: 10, imagem: hq10, nome: 'He-Man', preco: 'R$ 29,99', adicionado: false },
   ];
 
   const [produtos, setProdutos] = useState(produtosIniciais);

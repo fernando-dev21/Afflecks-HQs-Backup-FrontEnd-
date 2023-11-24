@@ -23,10 +23,7 @@ const Pagina2 = () => {
 
   return (
     <div>
-      <div>
-        <button onClick={increaseFontSize}><strong>Aumentar fonte</strong></button>
-        <button onClick={decreaseFontSize}><strong>Diminuir fonte </strong></button>        
-      </div>
+      
       <section className="section-container">           
 
         <div className="right-side" style={{ fontSize: `${fontSize}px` }}>
@@ -36,6 +33,7 @@ const Pagina2 = () => {
           Spider-Man para o PlayStation 5 (PS5) é um jogo de ação e aventura desenvolvido pela Insomniac Games e publicado pela Sony Interactive Entertainment. 
           Lançado em novembro de 2020, o jogo é uma continuação direta do aclamado Marvel's Spider-Man para o PlayStation 4.
           </p>
+          <button>Saiba mais</button>
         </div>
         <div className="left-side">
           <img src={game_1} alt="Imagem" className="image" />
@@ -50,6 +48,7 @@ const Pagina2 = () => {
           Injustice 2 é um jogo de luta desenvolvido pela NetherRealm Studios e publicado pela Warner Bros. Interactive Entertainment.
           Lançado em maio de 2017, o jogo é a sequência do aclamado Injustice: Gods Among Us.
           </p>
+          <button>Saiba mais</button>
         </div>
         <div className="left-side">
           <img src={game_2} alt="Imagem" className="image" />
@@ -71,6 +70,7 @@ const Pagina2 = () => {
           escritores e editores para compartilhar sua paixão pelos quadrinhos, explorar lançamentos,
           participar de painéis de discussão, sessões de autógrafos, exposições de arte e muito mais.
           </p>
+          <button>Saiba mais</button>
         </div>
       </section>
 
@@ -83,7 +83,8 @@ const Pagina2 = () => {
           Desenhos em quadrinhos, também conhecidos como histórias em quadrinhos ou HQs, são formas de narrativa visual que combinam ilustrações e texto para contar histórias. 
           Eles são compostos por uma sequência de painéis, onde cada painel representa uma cena ou momento específico da história.
           Os desenhos em quadrinhos abrangem uma ampla variedade de gêneros, desde super-heróis até comédia, ficção científica, fantasia, drama, aventura e muito mais.
-          </p>          
+          </p>
+          <button>Saiba mais</button>          
         </div>
         <div className="left-side">
           <img src={flash} alt="Imagem" className="image" />
@@ -102,6 +103,7 @@ const Pagina2 = () => {
           Esses filmes são baseados em personagens e histórias dos quadrinhos da Marvel Comics e são conhecidos por sua ação, 
           aventura e elementos de fantasia.
           </p>
+          <button>Saiba mais</button>
         </div>
       </div>
 
@@ -116,6 +118,7 @@ const Pagina2 = () => {
         Elas são muito apreciadas por fãs e entusiastas desses universos,
         permitindo que as pessoas mostrem seu amor e apoio aos seus heróis favoritos.
         </p>
+        <button>Saiba mais</button>
         </div>
       </div>
 
@@ -130,6 +133,7 @@ const Pagina2 = () => {
         Essas figuras são geralmente feitas de plástico ou resina e possuem detalhes precisos e articulações que
         permitem posicionar e movimentar os personagens de diferentes maneiras.
         </p>
+        <button>Saiba mais</button>
         </div>
       </div>
     </section>
